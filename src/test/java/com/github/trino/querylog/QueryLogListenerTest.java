@@ -125,7 +125,9 @@ class QueryLogListenerTest {
                 List.of(),
                 List.of(),
                 URI.create("http://localhost"),
-                Optional.empty(), Optional.empty()
+                Optional.empty(),
+                Optional.empty(),
+                Optional.empty()
         );
     }
 
@@ -147,7 +149,8 @@ class QueryLogListenerTest {
                 new HashMap<>(), // sessionProperties
                 new ResourceEstimates(Optional.empty(), Optional.empty(), Optional.of(1000L)),
                 "serverAddress", "serverVersion", "environment",
-                Optional.of(QueryType.SELECT)
+                Optional.of(QueryType.SELECT),
+                "retryPolicy" //retryPolicy
         );
     }
 }

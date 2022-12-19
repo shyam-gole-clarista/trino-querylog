@@ -13,11 +13,11 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>11</maven.compiler.release>
         <log4j2.version>2.14.0</log4j2.version>
-        <trino-spi.version>351</trino-spi.version>
-        <!--NOTE: Trino 351 uses Jackson 2.10.5-->
-        <jackson.version>2.10.5</jackson.version>
+        <trino-spi.version>403</trino-spi.version>
+        <!--NOTE: Trino 403 uses Jackson 2.13.4-->
+        <jackson.version>2.13.4</jackson.version>
         <!-- Test -->
-        <junit.jupiter.version>5.7.1</junit.jupiter.version>
+        <junit.jupiter.version>5.8.1</junit.jupiter.version>
         <sonar.coverage.jacoco.xmlReportPaths>${project.build.directory}/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
     </properties>
 
